@@ -4,31 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфоліо</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <a href="#welcome-section" class="nav-link greet"><p>Привітання</p></a>
-            <a href="#projects" class="nav-link projs"><p>Проєкти</p></a>
-            <a href="#contacts-section" class="nav-link cont"><p>Контакти</p></a>
+            <a href="#welcome-section" class="nav-link greet"><p>Greetings</p></a>
+            <a href="#projects" class="nav-link projs"><p>Projects</p></a>
+            <a href="#contacts-section" class="nav-link cont"><p>Contacts</p></a>
         </nav>
     </header>
 
     <main id="main">
         <section id="welcome-section">
             <h1 id="welcome-title">Hello everyone</h1>
+            <h4 id="welcome-sub">from <i>calmey-dev</i></h4>
         </section>
 
         <section id="projects">
-            <div class="project-tile">
-                <p>Amogus</p>
+            <div class="container">
+                <a href="https://github.com/calmey-dev/tribute-page" target="_blank">
+                    <div class="project-tile">
+                        <div class="project-view">1</div>
+                        <div class="project-title">Tribute page</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/calmey-dev/tech-docs" target="_blank">
+                    <div class="project-tile">
+                        <div class="project-view">2</div>
+                        <div class="project-title">Tech Docs</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/calmey-dev/landing-page" target="_blank">
+                    <div class="project-tile">
+                        <div class="project-view">3</div>
+                        <div class="project-title">Landing page</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/calmey-dev/survey-form" target="_blank">
+                    <div class="project-tile">
+                        <div class="project-view">4</div>
+                        <div class="project-title">Survey form</div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/calmey-dev/portfolio-webpage" target="_blank">
+                    <div class="project-tile">
+                        <div class="project-view">5</div>
+                        <div class="project-title">Portfolio</div>
+                    </div>
+                </a>
             </div>
         </section>
 
         <section id="contacts-section">
-            <a href="" id="profile-link"></a>
+            <a href="https://github.com/calmey-dev" target="_blank" id="profile-link">My Github</a>
         </section>
     </main>
 </body>
